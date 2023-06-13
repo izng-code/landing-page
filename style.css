@@ -83,7 +83,8 @@ button {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 52px;
+    margin-bottom: 150px;
 }
 
 .card {
@@ -108,4 +109,22 @@ button {
 .illustration-text {
     text-align: center;
     color: rgb(88, 88, 88);
+}
+
+.three {
+    background-color: #e5e7eb;
+    padding: 150px 220px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
 }
