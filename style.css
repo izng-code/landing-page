@@ -8,6 +8,7 @@ body {
 
 .one{
     background-color: #1f2937;
+    padding: 4px 0px 120px; 
 }
 
 .logo {
@@ -16,7 +17,7 @@ body {
     justify-content: space-around;
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bolder;
+    font-weight: 1000;
     margin-bottom: 96px;
 }
 
@@ -41,7 +42,7 @@ a {
 .heading {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: bolder;
+    font-weight: 1000;
     width: 450px;
 }
 
@@ -72,17 +73,39 @@ button {
     cursor: pointer;
 }
 
-.two {
-    margin-top: 100px;
-    background-color: #e5e7eb;
-}
 .random-heading {
     text-align: center;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 1000;
+    margin: 48px 0px;
 }
+
 .cards {
     display: flex;
-    margin: 36px 0px 0px 0px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 4px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+.illustration-text {
+    text-align: center;
+    color: rgb(88, 88, 88);
 }
